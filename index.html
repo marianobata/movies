@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CAC MOVIES 2024 </title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"       
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="static/css/estilo.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  </head>
+  <body>
+    <header class="px-4 py-2 bg-danger">
+      <nav class="navbar d-flex justify-content-between align-items-center">
+        <div class="d-flex align-items-center">
+          <span class="navbar-brand text-white">CAC MOVIES</span>
+        </div>
+        <div class="link">
+          <a href="#" class="navbar-brand text-white">Tendencias</a>
+          <a href="#" class="navbar-brand text-white">Registrarse</a>
+          <button type="button" class="btn btn-success">
+            <a href="#" class="text-decoration-none text-white"
+              >Iniciar Sesion</a
+            >
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+
+      <section id="bg-banner" class="d-flex">
+        <div id="card-banner" class="card-banner-fluid text-white align-content-center text-center">
+          <h1>Películas y series ilimitadas<br />en un solo lugar</h1>
+          <h2>Disfruta donde quieras.<br />Cancela en cualquier momento.</h2>
+          <button type="button" class="btn btn-danger">
+            <a href="#" class="text-decoration-none text-white text-uppercase">Registrarse</a>
+          </button>
+        </div>
+      </section>
+
+      <section class="buscador container-fluid">
+        <h2 class="search-title">¿Qué estas buscando para ver?</h2>
+        <input type="search" class="search" placeholder=" Buscar..." />
+        <button type="button" class="btn btn-danger">
+          <a href="#" class="text-white"><i class="material-icons">search</i></a>
+        </button>
+      </section>
+      <hr />
+
+      <section class="container-fluid">
+        <h2 class="tendencia-title">Las tendencias de hoy</h2>
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+               <div class="row">
+                <div class="col-4">
+                  <img src="./static/images/caratula1.png" class="d-block w-100" alt="Enola Holmes">
+                </div>
+                <div class="col-4">
+                  <img src="./static/images/caratula2.png" class="d-block w-100" alt="Rebel Moon">
+                </div>
+                <div class="col-4">
+                  <img src="./static/images/caratula3.png" class="d-block w-100" alt="Troll">
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+          </button>
+        </div>
+      </section>
+      <footer class="footer">
+        <nav>
+            <ul >
+                <li ><a  href="">Términos y condiciones</a></li>
+                <li ><a  href="">Preguntas frecuentes</a></li>
+                <li ><a  href="">Ayuda</a></li>
+                <li ><a  href="">Administrador Peliculas</a></li>
+            </ul>
+        </nav>
+    </footer>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
